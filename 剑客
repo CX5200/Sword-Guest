@@ -1,0 +1,411 @@
+local sound = Instance.new("Sound")
+sound.SoundId = "rbxassetid://608618332"
+sound.Parent = game.Workspace
+sound:Play()
+
+
+local lc = game:GetService("Players").LocalPlayer 
+local group = 17317757 
+local grouplink = "17317757"
+local creds = "剑客"
+
+if lc:IsInGroup(group) then 
+      print("欢迎使用剑客")
+else
+      lc:kick("🍙请加群组搜索剑客🍙") 
+      setclipboard(grouplink)
+end
+
+print(creds)
+
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/CX5200/Sword-Guest/main/%E5%89%91%E5%AE%A2Hub')))()
+
+local Window = OrionLib:MakeWindow({Name = " · 剑客 · ", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
+
+
+local Tab = Window:MakeTab({
+	Name = "🧊 介 绍 🧊",
+	Icon = "rbxassetid://10039322658",
+	PremiumOnly = false
+})
+
+local Section = Tab:AddSection({
+	Name = "🔱 黑 猫 脚 本 🔱"
+})
+
+local Section = Tab:AddSection({
+	Name = "🔱 黑 猫 Q Q 群 881072957 🔱"
+})
+
+local Section = Tab:AddSection({
+	Name = "🟢 永 久 免 费 , 不 收 一 分 钱 🟢"
+})
+
+local Section = Tab:AddSection({
+	Name = " 💎 因 为 刚 开 始 做 , 所 以 没 多 少 功 能 , 请 谅 , 解 后 续 我 会 更 新 功 能 💎 "
+})
+
+local Section = Tab:AddSection({
+	Name = "😉 希 望 您 使 用 愉 快 ！😉"
+})
+
+local Section = Tab:AddSection({
+	Name = "更新时间:7月19日"
+})
+
+local Section = Tab:AddSection({
+	Name = "当前版本:2.2"
+})
+
+local Tab = Window:MakeTab({
+	Name = "🧊 更 新 日 志 🧊",
+	Icon = "rbxassetid://10039322658",
+	PremiumOnly = false
+})
+
+local Section = Tab:AddSection({
+	Name = " 🔆 版本2.2 添加群组认证。 🔆 "
+})
+
+local Section = Tab:AddSection({
+	Name = " 🔆 版本2.1 添加力量传奇脚本。 🔆 "
+})
+
+local Section = Tab:AddSection({
+	Name = " 🔆 版本2.0 添加生命模拟器脚本。 🔆 "
+})
+
+local Section = Tab:AddSection({
+	Name = " 🔆 版本1.9 添加杀手VS警长脚本,去除背上只因剑脚本。 🔆 "
+})
+
+local Section = Tab:AddSection({
+	Name = " 🔆 版本1.8 添加管理员指令教学。 🔆 "
+})
+
+local Section = Tab:AddSection({
+	Name = " 🔆 版本1.7 优化极速传奇脚本。 🔆 "
+})
+
+local Section = Tab:AddSection({
+	Name = " 🔆 版本1.6 添加极速传奇脚本。 🔆 "
+})
+
+local Section = Tab:AddSection({
+	Name = " 🔆 版本1.5 优化界面，添加音乐。 🔆 "
+})
+
+local Section = Tab:AddSection({
+	Name = " 🔆 版本1.4 优化界面，添加背上只因剑脚本。 🔆 "
+})
+
+local Section = Tab:AddSection({
+	Name = " 🔆 版本1.3 添加混乱脚本。 🔆 "
+})
+
+local Section = Tab:AddSection({
+	Name = " 🔆 版本1.2 优化界面，添加一路向西脚本 🔆 "
+})
+
+local Section = Tab:AddSection({
+	Name = " 🔆 版本1.1 支持手机端。 🔆 "
+})
+
+local Section = Tab:AddSection({
+	Name = " 🔆 版本1.0 优化界面。 🔆 "
+})
+
+local Section = Tab:AddSection({
+	Name = " 🔆 2023年7月4日，黑猫Hub诞生。 🔆 "
+})
+
+
+
+local Tab = Window:MakeTab({
+	Name = " 🍦 脚 本 Ⅰ 🍦 ",
+	Icon = "rbxassetid://10039322658",
+	PremiumOnly = false
+})
+
+local Section = Tab:AddSection({
+	Name = "💎 选 择 游 戏 💎 "
+})--选择
+
+
+local Section = Tab:AddSection({
+	Name = "————————————————————————————————————————————————"
+})
+
+Tab:AddButton({
+	Name = " 🍼 一 路 向 西 🍼 ",
+	Callback = function()
+		local sound = Instance.new("Sound")
+sound.SoundId = "rbxassetid://8755541422"
+sound.Parent = game.Workspace
+sound:Play()
+      		loadstring(game:HttpGet(('https://pastebin.com/raw/6RHWRrzu')))()
+  	end    
+})
+
+
+Tab:AddButton({
+	Name = " 🍼 极 速 传 奇 🍼 ",
+	Callback = function()
+		local sound = Instance.new("Sound")
+sound.SoundId = "rbxassetid://8755541422"
+sound.Parent = game.Workspace
+sound:Play()
+      		loadstring(game:HttpGet(('https://pastebin.com/raw/dApc6hNG')))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = " 🍼 杀 手 V S 警 长 🍼 ",
+	Callback = function()
+		local sound = Instance.new("Sound")
+sound.SoundId = "rbxassetid://8755541422"
+sound.Parent = game.Workspace
+sound:Play()
+      		loadstring(game:HttpGet(('https://pastebin.com/raw/TPgvGrcb')))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = " 🍼 生 命 模 拟 器 🍼 ",
+	Callback = function()
+		local sound = Instance.new("Sound")
+sound.SoundId = "rbxassetid://8755541422"
+sound.Parent = game.Workspace
+sound:Play()
+      		loadstring(game:HttpGet(('https://pastebin.com/raw/pDqRqArt')))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = " 🍼 力 量 传 奇 🍼 ",
+	Callback = function()
+		local sound = Instance.new("Sound")
+sound.SoundId = "rbxassetid://8755541422"
+sound.Parent = game.Workspace
+sound:Play()
+      		loadstring(game:HttpGet(('https://pastebin.com/raw/4YSLZXqb')))()
+  	end    
+})
+
+local Tab = Window:MakeTab({
+	Name = " ⚓ 脚 本 Ⅱ ⚓ ",
+	Icon = "rbxassetid://10039322658",
+	PremiumOnly = false
+})
+
+Tab:AddButton({
+	Name = " 🍼 混 乱 🍼 ",
+	Callback = function()
+		local sound = Instance.new("Sound")
+sound.SoundId = "rbxassetid://8755541422"
+sound.Parent = game.Workspace
+sound:Play()
+      		loadstring(game:HttpGet(('https://pastebin.com/raw/TNFwJMxd')))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = " 🍼 Marvellous Battleground 🍼 ",
+	Callback = function()
+		local sound = Instance.new("Sound")
+sound.SoundId = "rbxassetid://8755541422"
+sound.Parent = game.Workspace
+sound:Play()
+      		loadstring(game:HttpGet(('https://pastebin.com/raw/1egqGJbU')))()
+  	end    
+})
+
+local Section = Tab:AddSection({
+	Name = "💎 选 择 游 戏 💎 "
+})--选择
+
+
+local Section = Tab:AddSection({
+	Name = "————————————————————————————————————————————————"
+})
+
+
+
+local Tab = Window:MakeTab({
+	Name = " ⚓ 其 他 功 能 ⚓",
+	Icon = "rbxassetid://10039322658",
+	PremiumOnly = false
+})
+ 
+Tab:AddButton({
+	Name = " 💫 飞 天 💫 ",
+	Callback = function()
+		local sound = Instance.new("Sound")
+sound.SoundId = "rbxassetid://8755541422"
+sound.Parent = game.Workspace
+sound:Play()
+		OrionLib:MakeNotification({
+	Name = "黑猫助手",
+	Content = "飞天已开启",
+	Image = "rbxassetid://9493689752",
+	Time = 3
+})
+      		loadstring(game:HttpGet(('https://pastebin.com/raw/YpiDsqRN')))()
+  	end    
+})
+ 
+Tab:AddButton({
+	Name = " 🌌 管 理 员 指 令 🌌 ",
+	Callback = function()
+		local sound = Instance.new("Sound")
+sound.SoundId = "rbxassetid://8755541422"
+sound.Parent = game.Workspace
+sound:Play()
+OrionLib:MakeNotification({
+	Name = "黑猫助手",
+	Content = "管理员指令已开启",
+	Image = "rbxassetid://9493689752",
+	Time = 3
+})
+      		loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+  	end    
+})
+
+local Tab = Window:MakeTab({
+	Name = " 🎐 实 用 指 令 🎐 ",
+	Icon = "rbxassetid://10039322658",
+	PremiumOnly = false
+})
+
+local Section = Tab:AddSection({
+	Name = "以下指令用于黑猫脚本其他功能 管理员指令"
+})
+
+local Section = Tab:AddSection({
+	Name = "指令前面加un即可关闭 比如 unesp"
+})
+
+local Section = Tab:AddSection({
+	Name = "介绍后面带有(默认数值**)的是不能用un恢复数值的"
+})
+
+local Section = Tab:AddSection({
+	Name = "特定游戏防作弊比较强 封禁别找我(慎用)"
+})
+
+local Section = Tab:AddSection({
+	Name = "esp 透视 / 全部玩家"
+})
+
+local Section = Tab:AddSection({
+	Name = "locate 玩家名 /  单个玩家透视"
+})
+
+local Section = Tab:AddSection({
+	Name = "xray 建筑半透明"
+})
+
+local Section = Tab:AddSection({
+	Name = "to 玩家名 传送"
+})
+
+local Section = Tab:AddSection({
+	Name = "fly 数值 / 飞行(电脑玩家)"
+})
+
+local Section = Tab:AddSection({
+	Name = "cfly 数值 / 飞行(手机玩家)"
+})
+
+local Section = Tab:AddSection({
+	Name = "firstp 强制第一人称"
+})
+
+local Section = Tab:AddSection({
+	Name = "thirdp 强制第三人称"
+})
+
+local Section = Tab:AddSection({
+	Name = "maxzoom 数字 (数字是你想拉多远的数值)上帝视角"
+})
+local Section = Tab:AddSection({
+	Name = "fov 数值 调整视野 (默认数值70)"
+})
+
+local Section = Tab:AddSection({
+	Name = "noclip 穿墙"
+})
+
+local Section = Tab:AddSection({
+	Name = "reach 更改手持武器的范围伤害"
+})
+
+local Section = Tab:AddSection({
+	Name = "invisible 隐身(大多游戏无效)"
+})
+
+local Section = Tab:AddSection({
+	Name = "visible 隐身现行"
+})
+local Section = Tab:AddSection({
+	Name = "bang 玩家名 操你心爱的玩家"
+})
+
+local Section = Tab:AddSection({
+	Name = "naked 脱衣服"
+})
+
+local Section = Tab:AddSection({
+	Name = "headsit 坐在玩家头上"
+})
+
+local Section = Tab:AddSection({
+	Name = "fling 旋转"
+})
+
+local Section = Tab:AddSection({
+	Name = "nohead 移除头部(尽量别用)"
+})
+
+local Section = Tab:AddSection({
+	Name = "noarms 移除手臂"
+})
+
+local Section = Tab:AddSection({
+	Name = "nolegs 去除腿"
+})
+
+local Section = Tab:AddSection({
+	Name = "nolimbs 移除四肢"
+})
+
+local Section = Tab:AddSection({
+	Name = "loopspeed 数值 调整速度(默认数值16)"
+})
+
+local Section = Tab:AddSection({
+	Name = "loopjumppower 数值 跳跃高度"
+})
+
+local Section = Tab:AddSection({
+	Name = "brightness 数值 /更高亮度 (默认0)"
+})
+
+local Section = Tab:AddSection({
+	Name = "view 玩家名 / 观看玩家"
+})
+
+local Section = Tab:AddSection({
+	Name = "flyjump 无限跳跃 (好像仅电脑玩家)"
+})
+
+local Section = Tab:AddSection({
+	Name = "use2022materials 使用2022年材质纹理"
+})
+
+local Section = Tab:AddSection({
+	Name = ""
+})
+
+
+
